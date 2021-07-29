@@ -1,0 +1,65 @@
+.work-experience{
+    padding-top: 25px;
+}
+
+h3 {
+    margin: 10px 0 0 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+h3 span {
+    font-style: italic;
+    font-weight: 30;
+}
+
+.content-timeline {
+    background-color: #3370FF;
+    color: white;
+    padding: 5px 10px 5px 5px;
+    border-radius: 3px;
+    text-align: right;
+    font-size: 13px;
+}
+.button-hover a:hover {
+    background-color: #ffd6ff;
+}
+.content-button {
+    border-radius: 3px;
+    background-color: #3370FF;
+    border: none;
+    color: white;
+    padding: 2px 7px 2px 7px;
+    margin-right: 10px;
+    
+}
+
+a :hover {
+    color:#0049F5;
+    cursor: pointer;
+}
+
+a {
+    color:#1D3557;
+}
+
+.skills-header {
+    color:#457B9D;
+    padding-left: 10px;
+}
+
+mzd-timeline mzd-timeline-content:after {
+    border: 1.5px solid #e7c6ff;
+    background-color: #e7c6ff;
+}
+
+.card {
+    background-color: #D6E2FF;
+    border-radius: 3px;
+    padding-bottom: 8px;
+}
+
+hr {
+    border-top: 3px solid #0049F5;
+    margin: 4px 10px 7px 10px;
+}

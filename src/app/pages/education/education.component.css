@@ -1,0 +1,26 @@
+.education-text{
+    padding-top: 25px;
+}
+
+.mat-form-field + .mat-form-field {
+    margin-left: 8px;
+  }
+
+mat-expansion-panel-header {
+    background: #ADC7FF;
+  }
+
+  mat-panel-title {
+      color: black;
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  
+mat-expansion-panel {
+  background: #D6E2FF;
+  padding: 7px;
+}
+
+ul {
+  padding-top: 15px;
+}

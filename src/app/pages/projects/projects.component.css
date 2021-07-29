@@ -1,0 +1,63 @@
+.projects-text {
+    padding-top: 25px;
+}
+
+.background-image {
+    text-align: left;
+    color: white;
+    height: 200px;
+    border: none;
+}
+
+.background-image:hover {
+    opacity: 70%;
+}
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    text-align: center;
+  }
+  
+  .flex-container > div {
+    margin: 10px;
+  }
+
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
+  .button-align {
+    text-align: center;
+  }
+
+  .button-align a {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  img {
+    height: 200px;
+  }
+
+  .btn {
+    background-color: #709BFF;
+    color: white;
+  }
+ 
+  .btn:hover {
+    background-color: #e7c6ff !important;
+}
+
+  .btn:hover {
+    background-color: #709BFF;
+  }
+
+  .card-text {
+
+    font-weight: 300;
+    padding-bottom: 10px;
+  }

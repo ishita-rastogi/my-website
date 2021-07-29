@@ -1,0 +1,47 @@
+body {
+    overflow-x: hidden;
+  }
+
+  .center {
+    align-self: center;
+  }
+
+  .fa-github,.fa-linkedin-in {
+    font-size: 2em;
+    padding: 10px;
+  }
+
+ .navbar-brand {
+    font-family: "Architect's Daughter";
+    color: black;
+    padding: 8px;
+    font-size: 25px;
+ }
+
+  .fa-github:hover,.fa-linkedin-in:hover {
+    text-decoration: none;
+  }
+
+  a:hover {
+    padding: 10, 5, 10, 5 !important;
+    background-color: #ADC7FF;
+    border-radius: 5px;
+  }
+
+.nav-link {
+    color: black !important;
+  }
+
+  .activebutton {
+    padding: 10, 5, 10, 5;
+    background-color: #ADC7FF;
+    border-radius: 5px;
+}
+
+.nav-item {
+  padding-left: 7px;
+}
+
+nav {
+  background-color: #ffd6ff;
+}

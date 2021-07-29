@@ -1,0 +1,54 @@
+<div class="education-text">
+    <h1>education.</h1>
+    <h2 style="color: #709DFF">my relevant courses at uc berkeley.</h2>
+    <br>
+
+<mat-accordion>
+    <mat-expansion-panel hideToggle class="bg-light">
+    </mat-expansion-panel>
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+            BACHELOR OF ARTS — DATA SCIENCE (CONCENTRATION IN BUSINESS AND INDUSTRIAL ANALYTICS)
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <ul>
+        <li>Probability for Data Science (DATA 140)</li>
+        <li>Principles & Techniques of Data Science (DATA 100)</li>
+        <li>Foundations of Data Science (DATA 8)</li>
+        <li>Data Structures (CS 61B)</li>
+        <li>The Structure and Interpretation of Computer Programs (CS 61A)</li>
+        <li>Probability and Mathematical Statistics in Data Science (STAT 88)</li>
+      </ul>
+    </mat-expansion-panel>
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+            BACHELOR OF ARTS — ECONOMICS
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <ul>
+        <li>Economic Statistics and Econometrics (ECON 140)</li>
+        <li>Microeconomic Analysis (ECON 100A)</li>
+        <li>Introduction to Economics (ECON 1)</li>
+        <li>Principles of Business (UGBA 10)</li>
+      </ul>
+    </mat-expansion-panel>
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+            CERTIFICATIONS
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <ul>
+        <li>Finance and Quantitative Modeling for Analysts Specialization by University of Pennsylvania </li>
+        <li>JP Morgan Chase & Co. Software Engineering Virtual Experience</li>
+        <li>Leadership Through Social Influence by Northwestern University</li>
+      </ul>
+    </mat-expansion-panel>
+  </mat-accordion>
+  
+</div>
